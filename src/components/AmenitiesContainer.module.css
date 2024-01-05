@@ -1,0 +1,282 @@
+.amenitiesTitle {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+  font-family: inherit;
+}
+.amenityCategories {
+  align-self: stretch;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+}
+.searchFlightsText {
+  position: relative;
+  font-size: var(--font-size-base);
+  letter-spacing: 0.46px;
+  line-height: 26px;
+  font-weight: 600;
+  font-family: var(--font-archivo);
+  color: var(--dark);
+  text-align: center;
+}
+.searchFlightsButton {
+  cursor: pointer;
+  border: 1px solid var(--dark);
+  padding: var(--padding-2xs) var(--padding-lgi);
+  background-color: transparent;
+  border-radius: var(--br-7xs);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+.searchFlightsButton:hover {
+  background-color: var(--color-darkslategray-200);
+  border: 1px solid var(--color-darkslategray-100);
+  box-sizing: border-box;
+}
+.amenitiesGrid,
+.amenitiesHeader {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.amenitiesGrid {
+  align-self: stretch;
+  gap: var(--gap-12xl);
+  font-size: var(--font-size-base);
+}
+.amenitiesHeader {
+  flex: 1;
+  gap: var(--gap-xl);
+  min-width: 165px;
+  max-width: 100%;
+}
+.locationHeading {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+  font-family: inherit;
+}
+.mapIcon {
+  width: 9.3px;
+  height: 11px;
+  object-fit: cover;
+}
+.locationLabel,
+.mapIcon {
+  position: relative;
+}
+.locationContent,
+.locationMapInfo {
+  display: flex;
+  justify-content: flex-start;
+}
+.locationMapInfo {
+  flex-direction: row;
+  align-items: center;
+  padding: 0 var(--padding-12xs) 0 0;
+  gap: var(--gap-7xs);
+  font-size: var(--font-size-base);
+}
+.locationContent {
+  width: 326px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-8xs);
+  max-width: 100%;
+}
+.weatherIconWrapper {
+  position: relative;
+  width: 47px;
+  height: 47px;
+}
+.temperatureText,
+.weatherDescription {
+  position: relative;
+  letter-spacing: 0.02em;
+}
+.temperatureText {
+  line-height: 150%;
+  font-weight: 600;
+}
+.weatherDescription {
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-200);
+}
+.weatherDetails,
+.weatherInfoContainer {
+  flex: 1;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+}
+.weatherInfoContainer {
+  flex-direction: row;
+  gap: var(--gap-3xs);
+  text-align: left;
+  font-size: var(--font-size-base);
+}
+.c,
+.sunIcon {
+  position: relative;
+}
+.sunIcon {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
+.c {
+  align-self: stretch;
+}
+.cWrapper,
+.sunGroup,
+.sunParent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.cWrapper {
+  align-self: stretch;
+  align-items: center;
+}
+.sunGroup,
+.sunParent {
+  width: 40px;
+}
+.sunParent {
+  align-items: flex-start;
+  gap: var(--gap-5xs);
+}
+.sunGroup {
+  align-items: center;
+}
+.frameParent,
+.weatherSection {
+  flex-shrink: 0;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent {
+  display: none;
+  flex-direction: column;
+  gap: var(--gap-5xs);
+}
+.weatherSection {
+  border-radius: var(--br-xs);
+  width: 154px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-11xs) var(--padding-12xs) var(--padding-11xs) 0;
+  box-sizing: border-box;
+  gap: var(--gap-5xl);
+  text-align: center;
+  font-size: var(--font-size-3xs);
+}
+.locationWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-0);
+  row-gap: 20px;
+  max-width: 100%;
+}
+.locationMapIcon {
+  align-self: stretch;
+  position: relative;
+  border-radius: var(--br-5xs);
+  max-width: 100%;
+  overflow: hidden;
+  height: 248px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.mapFrameIcon {
+  position: absolute;
+  margin: 0 !important;
+  right: 12px;
+  bottom: 161px;
+  border-radius: var(--br-9xs);
+  width: 37px;
+  height: 65px;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.locationFrame {
+  width: 480px;
+  flex-direction: column;
+  position: relative;
+  gap: var(--gap-xl);
+}
+.amenitiesSection,
+.locationFrame,
+.locationSection {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.locationSection {
+  flex-shrink: 0;
+  flex-direction: column;
+  min-width: 480px;
+}
+.amenitiesSection {
+  align-self: stretch;
+  border-bottom: 1px solid var(--light-grey-border);
+  box-sizing: border-box;
+  flex-direction: row;
+  padding: 0 0 var(--padding-11xl);
+  gap: var(--gap-lgi);
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--dark);
+  font-family: var(--font-archivo);
+}
+@media screen and (max-width: 1275px) {
+  .locationSection {
+    flex: 1;
+  }
+  .amenitiesSection {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .amenityCategories,
+  .locationWrapper {
+    flex-wrap: wrap;
+  }
+  .locationSection {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .amenitiesTitle {
+    font-size: var(--font-size-lgi);
+  }
+  .amenitiesGrid {
+    gap: var(--gap-mini);
+  }
+  .locationHeading {
+    font-size: var(--font-size-lgi);
+  }
+}

@@ -1,0 +1,135 @@
+.logoIcon {
+  width: 156.8px;
+  height: 40.5px;
+}
+.becomeAHost,
+.home,
+.logoIcon {
+  position: relative;
+}
+.becomeAHost {
+  white-space: nowrap;
+}
+.navLinks {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+}
+.alertsIcon {
+  position: relative;
+  width: 26px;
+  height: 26px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.avatarIcon {
+  position: relative;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  object-fit: cover;
+}
+.headerContent,
+.loginSection {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.headerContent {
+  width: 100%;
+  justify-content: space-between;
+  max-width: 1280px;
+}
+.appHeaderOld,
+.appHeaderOldParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.appHeaderOld {
+  background-color: var(--primary-contrast);
+  border-bottom: 1px solid var(--light-grey-border);
+  flex-shrink: 0;
+  align-items: center;
+  padding: var(--padding-sm) var(--padding-xl);
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-black);
+  font-family: var(--font-archivo);
+}
+.appHeaderOldParent {
+  align-items: flex-start;
+  max-width: 100%;
+}
+.button {
+  position: relative;
+  font-size: var(--font-size-base);
+  letter-spacing: 0.46px;
+  line-height: 26px;
+  font-weight: 600;
+  font-family: var(--font-archivo);
+  color: var(--accent);
+  text-align: center;
+}
+.searchFlightsButton {
+  cursor: pointer;
+  border: 1px solid var(--accent);
+  padding: var(--padding-2xs) var(--padding-xl);
+  background-color: transparent;
+  border-radius: var(--br-7xs);
+  box-sizing: border-box;
+  width: 148px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+.searchFlightsButton:hover {
+  background-color: rgba(0, 168, 135, 0.09);
+  border: 1px solid var(--color-lightseagreen-100);
+  box-sizing: border-box;
+}
+.frameParent,
+.homepage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frameParent {
+  align-self: stretch;
+  padding: 0 var(--padding-11xl) var(--padding-11xl);
+  gap: var(--gap-xs);
+}
+.homepage {
+  position: relative;
+  background-color: var(--color-gray-100);
+  width: 100%;
+  overflow: hidden;
+  letter-spacing: normal;
+}
+.homepage:hover {
+  background: linear-gradient(#fff, #fff), #87550a;
+}
+@media screen and (max-width: 1275px) {
+  .headerContent {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 750px) {
+  .navLinks {
+    display: none;
+  }
+}

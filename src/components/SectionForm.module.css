@@ -1,0 +1,194 @@
+.host {
+  color: var(--accent);
+}
+.findAHostContainer {
+  position: relative;
+  line-height: 110%;
+  display: inline-block;
+  width: 553px;
+  max-width: 100%;
+}
+.discoverTheBest {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 120%;
+  font-weight: 300;
+  font-family: inherit;
+}
+.findAHostForEveryJourneyParent {
+  width: 626px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  max-width: 100%;
+}
+.wrapperFrame31Child {
+  outline: 0;
+  padding: var(--padding-5xs) var(--padding-2xs);
+  font-family: var(--font-archivo);
+  font-weight: 600;
+  font-size: var(--font-size-base);
+  color: var(--dark);
+  border: 0;
+  width: 100%;
+  height: 100%;
+  background: 0 0;
+}
+.iconhome {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  z-index: 2;
+  right: 11px;
+  top: 16px;
+}
+.grouped,
+.wrapperFrame31,
+.wrapperFrame39 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.wrapperFrame31 {
+  position: relative;
+  border: 0;
+  background-color: var(--light-bg);
+  flex: 1;
+  border-radius: var(--br-7xs);
+  height: 52px;
+  justify-content: space-between;
+  box-sizing: border-box;
+  min-width: 300px;
+  max-width: 100%;
+}
+.grouped,
+.wrapperFrame39 {
+  justify-content: flex-start;
+}
+.wrapperFrame39 {
+  position: relative;
+  border: 0;
+  background-color: var(--light-bg);
+  border-radius: var(--br-7xs);
+  height: 52px;
+  box-sizing: border-box;
+  min-width: 77px;
+}
+.grouped {
+  flex-shrink: 0;
+  gap: var(--gap-sm);
+  max-width: 100%;
+}
+.iconsearch {
+  position: relative;
+  width: 19px;
+  height: 19px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.button {
+  position: relative;
+  font-size: var(--font-size-base);
+  letter-spacing: 0.46px;
+  line-height: 26px;
+  font-weight: 500;
+  font-family: var(--font-archivo);
+  color: var(--primary-contrast);
+  text-align: center;
+}
+.component1,
+.searchFlightsButton {
+  box-sizing: border-box;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.searchFlightsButton {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-smi) var(--padding-xl);
+  background-color: var(--accent);
+  border-radius: var(--br-7xs);
+  width: 160px;
+  overflow: hidden;
+  justify-content: center;
+  gap: var(--gap-4xs);
+}
+.searchFlightsButton:hover {
+  background-color: var(--color-lightseagreen-100);
+}
+.component1 {
+  align-self: stretch;
+  border-radius: var(--br-3xs);
+  background-color: var(--primary-contrast);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.02);
+  border: 0.7px solid var(--light-grey-border);
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-xs);
+  gap: var(--gap-sm);
+  max-width: 100%;
+}
+.frameParent,
+.frameWrapper {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+}
+.frameParent {
+  width: 100%;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  max-width: 1280px;
+}
+.frameWrapper {
+  align-self: stretch;
+  align-items: center;
+  justify-content: flex-end;
+  padding: var(--padding-11xl);
+  box-sizing: border-box;
+  background-image: url(/public/frame-38@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  min-height: 252px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-21xl-4);
+  color: var(--color-black);
+  font-family: var(--font-archivo);
+}
+@media screen and (max-width: 1275px) {
+  .frameParent {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 750px) {
+  .findAHostContainer {
+    font-size: var(--font-size-13xl);
+    line-height: 36px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .findAHostContainer {
+    font-size: var(--font-size-5xl);
+    line-height: 27px;
+  }
+  .discoverTheBest {
+    font-size: var(--font-size-base);
+    line-height: 19px;
+  }
+  .grouped {
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,271 @@
+.createAccountTitle {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.02em;
+  font-weight: 700;
+  font-family: inherit;
+}
+.inputFields {
+  outline: 0;
+  padding: var(--padding-5xs) 18.848966598510742px;
+  font-family: var(--font-archivo);
+  font-size: var(--font-size-base);
+  color: var(--light-text);
+  border: 0;
+  width: 100%;
+  height: 100%;
+  background: 0 0;
+}
+.inputIcons {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+  z-index: 2;
+  right: 19.726550102233887px;
+  top: 15.400000000000091px;
+}
+.wrapperInputFields {
+  position: relative;
+  border: 0;
+  background-color: var(--color-whitesmoke-100);
+  align-self: stretch;
+  border-radius: var(--br-9xs);
+  height: 51px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  min-width: 250px;
+}
+.iconpassword,
+.iconpassword1 {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+  z-index: 2;
+  right: 19.726550102233887px;
+  top: 15.49252719879155px;
+}
+.iconpassword1 {
+  top: 15.485054397583099px;
+}
+.userCredentialsFields {
+  align-self: stretch;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 15.71px;
+}
+.signUpButton {
+  position: relative;
+  font-size: var(--font-size-base);
+  letter-spacing: 0.46px;
+  line-height: 26px;
+  font-weight: 600;
+  font-family: var(--font-archivo);
+  color: var(--primary-contrast);
+  text-align: center;
+}
+.signUpButtonFrame {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-smi) var(--padding-xl);
+  background-color: var(--accent);
+  border-radius: var(--br-7xs);
+  width: 160px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  white-space: nowrap;
+}
+.signUpButtonFrame:hover {
+  background-color: var(--color-lightseagreen-100);
+}
+.accountFormFields,
+.inputFieldsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.inputFieldsContainer {
+  margin: 0;
+  align-self: stretch;
+  gap: var(--gap-7xl-7);
+}
+.accountFormFields {
+  width: 493px;
+  gap: var(--gap-5xl);
+  max-width: 100%;
+  flex-shrink: 0;
+  font-size: var(--font-size-7xl);
+}
+.separatorLine {
+  position: relative;
+  border-top: 1.6px solid var(--color-whitesmoke-200);
+  box-sizing: border-box;
+  width: 494.57px;
+  height: 1.57px;
+  max-width: 100%;
+}
+.socialSignUp {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 160%;
+}
+.socialIcon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0.5%;
+  right: -1.25%;
+  bottom: -0.5%;
+  left: 1.25%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.socialIcons {
+  position: relative;
+  border-radius: var(--br-xl);
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.socialButtonText {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.24px;
+}
+.socialButtons {
+  flex: 1;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-whitesmoke-100);
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-6xl) var(--padding-sm) var(--padding-7xl)
+    var(--padding-smi);
+  box-sizing: border-box;
+  gap: var(--gap-lgi);
+  min-width: 55px;
+}
+.facebookIcon {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.facebook {
+  position: relative;
+  letter-spacing: 0.24px;
+}
+.socialButtons1,
+.socialButtons2 {
+  flex: 0.8203;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-whitesmoke-100);
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-6xl) var(--padding-6xl) var(--padding-7xl);
+  box-sizing: border-box;
+  gap: var(--gap-lgi);
+  min-width: 77px;
+}
+.socialButtons2 {
+  flex: 1;
+  padding: var(--padding-6xl) var(--padding-sm) var(--padding-7xl)
+    var(--padding-smi);
+  min-width: 53px;
+}
+.socialButtonsFrame,
+.socialSignUpContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.socialButtonsFrame {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-11xs) 0 0;
+  gap: var(--gap-sm);
+  text-align: center;
+  color: var(--light-text);
+}
+.socialSignUpContainer {
+  width: 497px;
+  flex-direction: column;
+  gap: var(--gap-3xs);
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.login {
+  color: var(--accent);
+}
+.existingAccountTextContainer {
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 160%;
+  text-align: center;
+  display: inline-block;
+  width: 493px;
+  max-width: 100%;
+}
+.accountFormFrame {
+  flex: 1;
+  background-color: var(--primary-contrast);
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-21xl) var(--padding-20xl) var(--padding-20xl);
+  box-sizing: border-box;
+  gap: var(--gap-19xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--dark);
+  font-family: var(--font-archivo);
+}
+@media screen and (max-width: 1100px) {
+  .accountFormFrame {
+    gap: var(--gap-lgi);
+    padding-top: var(--padding-7xl);
+    padding-bottom: var(--padding-6xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .createAccountTitle {
+    font-size: var(--font-size-2xl);
+  }
+  .socialButtons,
+  .socialButtons1,
+  .socialButtons2 {
+    flex: 1;
+  }
+  .socialButtonsFrame {
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,105 @@
+.homeSummary {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+  font-family: inherit;
+}
+.welcomeToBrightwoods {
+  margin-block-start: 0;
+  margin-block-end: 17px;
+}
+.livingSpace {
+  font-family: var(--font-archivo);
+}
+.comeBeOur {
+  margin: 0;
+}
+.cabinIntroduction {
+  align-self: stretch;
+  position: relative;
+  line-height: 160%;
+  display: -webkit-inline-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 7;
+  -webkit-box-orient: vertical;
+}
+.readMoreButton {
+  position: relative;
+  letter-spacing: 0.46px;
+  line-height: 26px;
+  font-weight: 600;
+  color: var(--accent);
+  text-align: center;
+}
+.homeDescription {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-21xl);
+  min-width: 376px;
+}
+.featureList,
+.homeDescription,
+.homeDescriptionContainer,
+.homeSummaryParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.featureList {
+  width: 470px;
+  flex-direction: column;
+  gap: var(--gap-5xl);
+  min-width: 470px;
+  font-size: var(--font-size-lg);
+}
+.homeDescriptionContainer,
+.homeSummaryParent {
+  align-self: stretch;
+}
+.homeDescriptionContainer {
+  flex-shrink: 0;
+  flex-direction: row;
+  gap: var(--gap-21xl);
+  font-size: var(--font-size-base);
+}
+.homeSummaryParent {
+  border-bottom: 1px solid var(--light-grey-border);
+  box-sizing: border-box;
+  flex-direction: column;
+  padding: 0 0 var(--padding-5xl);
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--dark);
+  font-family: var(--font-archivo);
+}
+@media screen and (max-width: 1275px) {
+  .featureList {
+    flex: 1;
+  }
+  .homeDescriptionContainer {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .featureList {
+    min-width: 100%;
+  }
+  .homeDescriptionContainer {
+    gap: var(--gap-xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .homeSummary {
+    font-size: var(--font-size-lgi);
+  }
+  .homeDescription {
+    gap: var(--gap-xl);
+    min-width: 100%;
+  }
+}

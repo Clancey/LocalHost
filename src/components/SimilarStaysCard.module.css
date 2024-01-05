@@ -1,0 +1,252 @@
+.similarStaysTitle {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+  font-family: inherit;
+}
+.viewAllButton {
+  position: relative;
+  font-size: var(--font-size-base);
+  letter-spacing: 0.46px;
+  line-height: 26px;
+  font-weight: 600;
+  color: var(--accent);
+  text-align: center;
+}
+.similarStaysHeader {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.vectorIcon {
+  position: relative;
+  width: 6.7px;
+  height: 10px;
+  object-fit: cover;
+}
+.superhost {
+  position: relative;
+  letter-spacing: -0.01em;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+.vectorParent {
+  margin: 0 !important;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  border-radius: var(--br-smi);
+  background-color: var(--primary-contrast);
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) var(--padding-6xs);
+  gap: var(--gap-11xs);
+  z-index: 0;
+}
+.heartIcon {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: scale(1.533);
+}
+.wrapperHeartIcon {
+  position: absolute;
+  margin: 0 !important;
+  top: 10px;
+  right: 9.5px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+.frameParent {
+  width: 181px;
+  height: 143px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  gap: var(--gap-3xs);
+  background-image: url(/public/frame-911@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.urbanLoft {
+  position: relative;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+}
+.urbanLoftParent {
+  align-self: stretch;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.div {
+  position: relative;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+.vectorIcon1 {
+  position: relative;
+  width: 13px;
+  height: 13px;
+}
+.frameContainer,
+.parent {
+  flex-shrink: 0;
+  display: flex;
+  justify-content: flex-start;
+}
+.parent {
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-7xs);
+  font-size: var(--font-size-sm);
+}
+.frameContainer {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-xs);
+}
+.div1,
+.night {
+  position: relative;
+  letter-spacing: 0.02em;
+}
+.div1 {
+  font-weight: 600;
+  white-space: nowrap;
+}
+.night {
+  font-size: var(--font-size-sm);
+  color: var(--light-text);
+}
+.group {
+  flex: 1;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+}
+.frameChild,
+.userIcon {
+  position: relative;
+  height: 14px;
+}
+.frameChild {
+  width: 1px;
+  object-fit: cover;
+}
+.userIcon {
+  width: 14px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.guests {
+  position: relative;
+  letter-spacing: 0.02em;
+}
+.userParent {
+  flex: 1;
+  flex-shrink: 0;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-11xs);
+  font-size: var(--font-size-sm);
+  color: var(--light-text);
+}
+.frameDiv,
+.frameGroup,
+.userParent {
+  display: flex;
+  justify-content: flex-start;
+}
+.frameDiv {
+  width: 167px;
+  flex-shrink: 0;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-5xs);
+  color: var(--accent);
+}
+.frameGroup {
+  flex: 1;
+  height: 163px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-base);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-base);
+  color: var(--dark);
+}
+.similarStayItem,
+.similarStaysList,
+.similarStaysSection {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.similarStayItem {
+  flex: 1;
+  border-radius: var(--br-3xs);
+  background-color: var(--primary-contrast);
+  height: 143px;
+  overflow: hidden;
+  flex-direction: row;
+  min-width: 310px;
+}
+.similarStaysList,
+.similarStaysSection {
+  gap: var(--gap-xl);
+}
+.similarStaysList {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-size: var(--font-size-xs);
+  color: var(--accent);
+}
+.similarStaysSection {
+  width: 1320px;
+  flex-direction: column;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--dark);
+  font-family: var(--font-archivo);
+}
+@media screen and (max-width: 450px) {
+  .similarStaysTitle {
+    font-size: var(--font-size-lgi);
+  }
+  .similarStaysHeader {
+    flex-wrap: wrap;
+  }
+}

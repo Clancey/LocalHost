@@ -1,0 +1,57 @@
+.brandLogoIcon {
+  width: 156.8px;
+  height: 40.5px;
+}
+.brandLogoIcon,
+.navItems,
+.navItems2 {
+  position: relative;
+}
+.navItems2 {
+  white-space: nowrap;
+}
+.headerContentFrame,
+.navigationLinks {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+}
+.navigationLinks {
+  margin: 0;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-black);
+  font-family: var(--font-archivo);
+}
+.headerContentFrame {
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1280px;
+  gap: var(--gap-xl);
+}
+.headerFrame,
+.mainContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.headerFrame {
+  background-color: var(--primary-contrast);
+  border-bottom: 1px solid var(--light-grey-border);
+  flex-shrink: 0;
+  align-items: center;
+  padding: var(--padding-sm) var(--padding-xl);
+}
+.mainContainer {
+  align-items: flex-start;
+}
+@media screen and (max-width: 1275px) {
+  .headerContentFrame {
+    max-width: 100%;
+  }
+}

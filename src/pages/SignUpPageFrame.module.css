@@ -1,0 +1,110 @@
+.signUpFormContainer,
+.signUpSection {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+}
+.signUpFormContainer {
+  border-radius: var(--br-5xs);
+  width: 589px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.signUpSection {
+  align-self: stretch;
+  padding: 169px 21px 170px var(--padding-xl);
+  box-sizing: border-box;
+  background-image: url(/public/sign-up-section@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.copyrightText,
+.linkList {
+  position: relative;
+  line-height: 120%;
+  font-weight: 300;
+}
+.linkList {
+  white-space: nowrap;
+}
+.copyrightInfo,
+.footerContainer,
+.footerLinks {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.footerLinks {
+  overflow-x: auto;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.copyrightInfo,
+.footerContainer {
+  flex-shrink: 0;
+  justify-content: space-between;
+  max-width: 1280px;
+}
+.copyrightInfo {
+  flex: 1;
+  gap: var(--gap-xl);
+}
+.footerContainer {
+  width: 100%;
+}
+.footerFrame,
+.signUpPageFrame {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.footerFrame {
+  align-self: stretch;
+  border-top: 1px solid var(--light-grey-border);
+  box-sizing: border-box;
+  align-items: center;
+  padding: var(--padding-xs) var(--padding-11xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-black);
+  font-family: var(--font-archivo);
+}
+.signUpPageFrame {
+  position: relative;
+  background-color: var(--color-gray-100);
+  width: 100%;
+  overflow: hidden;
+  align-items: flex-start;
+  letter-spacing: normal;
+}
+.signUpPageFrame:hover {
+  background: linear-gradient(#fff, #fff), #87550a;
+}
+@media screen and (max-width: 1275px) {
+  .copyrightInfo,
+  .footerContainer {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .signUpSection {
+    gap: var(--gap-9xl);
+    padding-top: var(--padding-52xl);
+    padding-bottom: var(--padding-52xl);
+    box-sizing: border-box;
+  }
+  .copyrightInfo {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .signUpSection {
+    padding-top: var(--padding-91xl);
+    padding-bottom: var(--padding-91xl);
+    box-sizing: border-box;
+  }
+}

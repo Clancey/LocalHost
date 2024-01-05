@@ -1,0 +1,32 @@
+.propertyDetailsFrame,
+.propertySummary {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.propertySummary {
+  width: 1320px;
+  align-items: flex-start;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-11xl);
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.propertyDetailsFrame {
+  position: relative;
+  background-color: var(--color-gray-100);
+  width: 100%;
+  overflow: hidden;
+  align-items: center;
+  gap: 44px;
+  letter-spacing: normal;
+}
+.propertyDetailsFrame:hover {
+  background: linear-gradient(#fff, #fff), #87550a;
+}
+@media screen and (max-width: 1100px) {
+  .propertyDetailsFrame {
+    gap: 22px;
+  }
+}
