@@ -1,0 +1,242 @@
+.host {
+  color: var(--accent);
+}
+.searchTitle {
+  position: relative;
+  line-height: 110%;
+  display: inline-block;
+  max-width: 100%;
+}
+.searchSubtitle {
+  margin: 0;
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 120%;
+  font-weight: 300;
+  font-family: inherit;
+}
+.searchPrompt {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  max-width: 100%;
+}
+.searchFields {
+  outline: 0;
+  padding: var(--padding-mid) var(--padding-xs);
+  font-family: var(--font-roboto);
+  font-size: var(--font-size-sm);
+  color: var(--color-black);
+  border: 0;
+  width: 100%;
+  height: 100%;
+  background: 0 0;
+}
+.locationFieldIcon {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 2;
+  right: 12px;
+  top: 17px;
+}
+.wrapperSearchFields {
+  position: relative;
+  border: 1px solid var(--color-gainsboro);
+  background-color: var(--primary-contrast);
+  flex: 0.9521;
+  border-radius: var(--br-9xs);
+  box-sizing: border-box;
+  height: 59px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  min-width: 353px;
+  max-width: 100%;
+}
+.container,
+.wrapper {
+  flex: 1;
+}
+.guestsField {
+  outline: 0;
+  padding: var(--padding-mid) var(--padding-xs);
+  font-family: var(--font-roboto);
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-300);
+  border: 0;
+  width: 100%;
+  height: 100%;
+  background: 0 0;
+}
+.userIcon {
+  position: absolute;
+  width: 14%;
+  height: 25px;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 2;
+  right: 12.029999999999973px;
+  top: 17px;
+}
+.searchFields1,
+.wrapperGuestsField {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.wrapperGuestsField {
+  position: relative;
+  border: 1px solid var(--color-gainsboro);
+  background-color: var(--primary-contrast);
+  border-radius: var(--br-9xs);
+  box-sizing: border-box;
+  height: 59px;
+  justify-content: space-between;
+  min-width: 129px;
+}
+.searchFields1 {
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+  min-width: 353px;
+  max-width: 100%;
+}
+.searchIcon {
+  position: relative;
+  width: 19px;
+  height: 19px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.actionButton {
+  position: relative;
+  font-size: var(--font-size-base);
+  letter-spacing: 0.46px;
+  line-height: 26px;
+  font-weight: 500;
+  font-family: var(--font-archivo);
+  color: var(--primary-contrast);
+  text-align: center;
+}
+.searchBar,
+.searchButton {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.searchButton {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-mini) var(--padding-11xl);
+  background-color: var(--accent);
+  border-radius: var(--br-9xs);
+  overflow: hidden;
+  justify-content: center;
+  gap: var(--gap-4xs);
+}
+.searchButton:hover {
+  background-color: var(--color-lightseagreen-100);
+}
+.searchBar {
+  align-self: stretch;
+  border-radius: var(--br-3xs);
+  background-color: var(--primary-contrast);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.02);
+  border: 0.7px solid var(--light-grey-border);
+  box-sizing: border-box;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-smi) var(--padding-3xs)
+    var(--padding-2xs);
+  gap: var(--gap-sm);
+  max-width: 100%;
+}
+.heroSection,
+.searchWrapper {
+  display: flex;
+  flex-direction: column;
+}
+.searchWrapper {
+  width: 100%;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  max-width: 1280px;
+}
+.heroSection {
+  align-self: stretch;
+  align-items: center;
+  justify-content: flex-end;
+  padding: var(--padding-11xl);
+  box-sizing: border-box;
+  background-image: url(/public/hero-section@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  min-height: 259px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-21xl-4);
+  color: var(--color-black);
+  font-family: var(--font-archivo);
+}
+@media screen and (max-width: 1275px) {
+  .searchWrapper {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .searchFields,
+  .searchFields1 {
+    align-self: stretch;
+    width: auto;
+  }
+  .searchBar {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .searchTitle {
+    font-size: var(--font-size-5xl);
+    line-height: 27px;
+  }
+  .searchSubtitle {
+    font-size: var(--font-size-base);
+    line-height: 19px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .searchTitle {
+    font-size: var(--font-size-13xl);
+    line-height: 36px;
+  }
+  .searchFields {
+    align-self: stretch;
+    width: auto;
+    min-width: 100%;
+  }
+  .guestsField {
+    flex: 1;
+    min-width: 100%;
+  }
+  .searchFields1 {
+    flex-wrap: wrap;
+    min-width: 100%;
+    flex: unset;
+    align-self: stretch;
+  }
+  .searchButton {
+    text-align: center;
+    align-self: stretch;
+    width: auto;
+    min-width: 142;
+  }
+  .searchBar {
+    flex-direction: column;
+  }
+}
