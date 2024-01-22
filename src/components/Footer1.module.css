@@ -1,0 +1,168 @@
+.support {
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+}
+.aircover,
+.cencellationOptions,
+.combatingDiscrimination,
+.helpCentre,
+.reportNeighbourhoodConcern,
+.support,
+.supportingPeopleWith {
+  position: relative;
+}
+.privacyTerms {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+  min-width: 315px;
+  max-width: 100%;
+}
+.hosting {
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+}
+.communityForum,
+.coverForHosts,
+.hosting,
+.hostingResources,
+.hostingResponsibly,
+.localHome {
+  position: relative;
+}
+.coverforhosts {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+  min-width: 315px;
+  max-width: 100%;
+}
+.localhost {
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+}
+.careers,
+.giftCards,
+.investres,
+.localhost,
+.newFeatures,
+.newsroom1 {
+  position: relative;
+}
+.coverforhosts1,
+.newsroom {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.coverforhosts1 {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-sm);
+  min-width: 315px;
+}
+.newsroom {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--gap-3xs);
+}
+.hostingLocalhost,
+.localhome {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.localhome {
+  width: 100%;
+  align-items: flex-start;
+  max-width: 1280px;
+}
+.hostingLocalhost {
+  align-self: stretch;
+  background-color: var(--light-bg);
+  border-top: 1px solid var(--light-grey-border);
+  box-sizing: border-box;
+  align-items: center;
+  padding: var(--padding-21xl) var(--padding-11xl);
+  max-width: 100%;
+}
+.contactUs,
+.localhostIncAll,
+.privacyPolicy,
+.termsConditions {
+  position: relative;
+  line-height: 120%;
+  font-weight: 300;
+}
+.privacyPolicyTermsCondition {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.cancellationOptions,
+.reportNeighbourhoodConcern1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 1280px;
+}
+.reportNeighbourhoodConcern1 {
+  flex: 1;
+  gap: var(--gap-xl);
+}
+.cancellationOptions {
+  width: 100%;
+}
+.footer,
+.hostingResponsibly1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.hostingResponsibly1 {
+  border-top: 1px solid var(--light-grey-border);
+  box-sizing: border-box;
+  align-items: center;
+  padding: var(--padding-xs) var(--padding-11xl);
+  font-size: var(--font-size-sm);
+  color: var(--color-black);
+}
+.footer {
+  align-items: flex-start;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--dark);
+  font-family: var(--font-archivo);
+}
+@media screen and (max-width: 1325px) {
+  .cancellationOptions,
+  .localhome,
+  .reportNeighbourhoodConcern1 {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .reportNeighbourhoodConcern1 {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .hosting,
+  .localhost,
+  .support {
+    font-size: var(--font-size-base);
+  }
+}

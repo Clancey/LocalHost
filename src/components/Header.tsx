@@ -3,20 +3,32 @@ import styles from "./Header.module.css";
 
 const Header: FunctionComponent = () => {
   return (
-    <header className={styles.mainContainer}>
-      <div className={styles.headerFrame}>
-        <div className={styles.headerContentFrame}>
+    <header className={styles.header}>
+      <div className={styles.headerContent}>
+        <img
+          className={styles.logoIcon}
+          loading="eager"
+          alt=""
+          src="/logo.svg"
+        />
+        <div className={styles.navLinks}>
+          <div className={styles.home}>Home</div>
+          <div className={styles.stays}>Stays</div>
+          <div className={styles.becomeAHost}>Become a host</div>
+        </div>
+        <div className={styles.loginSection}>
           <img
-            className={styles.brandLogoIcon}
+            className={styles.alertsIcon}
             loading="eager"
             alt=""
-            src="/logo.svg"
+            src="/alerts.svg"
           />
-          <nav className={styles.navigationLinks}>
-            <div className={styles.navItems}>Home</div>
-            <div className={styles.navItems}>Stays</div>
-            <div className={styles.navItems2}>Become a host</div>
-          </nav>
+          <img
+            className={styles.avatarIcon}
+            loading="eager"
+            alt=""
+            src="/avatar@2x.png"
+          />
         </div>
       </div>
     </header>

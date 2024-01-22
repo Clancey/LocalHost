@@ -1,5 +1,5 @@
 {
-  "name": "localhost_final_v3_😒",
+  "name": "localhost_final_v3_😒_final_🙏",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -19,6 +19,7 @@
     "@emotion/styled": "^11.11.0",
     "@mui/x-date-pickers": "^6.7.0",
     "date-fns": "^2.30.0",
+    "typescript": "^4.5.4",
     "react-router-dom": "^6.2.1"
   },
   "scripts": {

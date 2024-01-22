@@ -1,0 +1,515 @@
+.amenities {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+  font-family: inherit;
+}
+.textFrame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+}
+.searchFlightsButton {
+  width: 185px;
+  height: 48px;
+}
+.searchFlightsButton:hover {
+  background-color: var(--color-saddlebrown);
+}
+.ellipse,
+.hearticonFrame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.hearticonFrame {
+  align-self: stretch;
+  gap: var(--gap-12xl);
+  font-size: var(--font-size-base);
+}
+.ellipse {
+  flex: 1;
+  gap: var(--gap-xl);
+  min-width: 508px;
+  max-width: 100%;
+}
+.whereYoullBe {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+  font-family: inherit;
+}
+.vectorIcon {
+  height: 11px;
+  width: 9.3px;
+}
+.theBridlePath,
+.vectorIcon {
+  position: relative;
+}
+.lakeInfo,
+.textNode {
+  display: flex;
+  justify-content: flex-start;
+}
+.textNode {
+  flex-direction: row;
+  align-items: center;
+  padding: 0 var(--padding-11xs) 0 0;
+  gap: var(--gap-7xs);
+  font-size: var(--font-size-base);
+}
+.lakeInfo {
+  width: 326px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-8xs);
+  max-width: 100%;
+}
+.suncloudIcon {
+  height: 47px;
+  width: 47px;
+  position: relative;
+}
+.temperature,
+.weatherDetail {
+  position: relative;
+  letter-spacing: 0.02em;
+}
+.temperature {
+  line-height: 150%;
+  font-weight: 600;
+}
+.weatherDetail {
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-200);
+}
+.weatherInfo,
+.weatherInfo1 {
+  width: 51px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+}
+.weatherInfo {
+  width: 108px;
+  flex-direction: row;
+  gap: var(--gap-3xs);
+  text-align: left;
+  font-size: var(--font-size-base);
+}
+.c,
+.sunIcon {
+  position: relative;
+}
+.sunIcon {
+  width: 40px;
+  height: 40px;
+}
+.c {
+  align-self: stretch;
+  height: 11px;
+  display: inline-block;
+}
+.cWrapper,
+.sunParent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.cWrapper {
+  align-self: stretch;
+  align-items: center;
+}
+.sunParent {
+  width: 40px;
+  align-items: flex-start;
+  gap: var(--gap-5xs);
+}
+.aug,
+.sun {
+  align-self: stretch;
+  height: 11px;
+  position: relative;
+  display: inline-block;
+}
+.frameGroup,
+.sunGroup {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.sunGroup {
+  width: 40px;
+  display: flex;
+  align-items: center;
+}
+.frameGroup {
+  display: none;
+  align-items: flex-start;
+  gap: var(--gap-5xs);
+}
+.suncloudIcon1 {
+  width: 40px;
+  height: 40px;
+  position: relative;
+}
+.c1 {
+  align-self: stretch;
+  height: 11px;
+  position: relative;
+  display: inline-block;
+}
+.cContainer,
+.suncloudParent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.cContainer {
+  align-self: stretch;
+  align-items: center;
+}
+.suncloudParent {
+  width: 40px;
+  align-items: flex-start;
+  gap: var(--gap-5xs);
+}
+.aug1,
+.mon {
+  align-self: stretch;
+  height: 11px;
+  position: relative;
+  display: inline-block;
+}
+.frameContainer,
+.monParent {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.monParent {
+  width: 40px;
+  display: flex;
+  align-items: center;
+}
+.frameContainer {
+  display: none;
+  align-items: flex-start;
+  gap: var(--gap-5xs);
+}
+.c2,
+.sunIcon1 {
+  position: relative;
+}
+.sunIcon1 {
+  width: 40px;
+  height: 40px;
+}
+.c2 {
+  align-self: stretch;
+  height: 11px;
+  display: inline-block;
+}
+.cFrame,
+.sunContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.cFrame {
+  align-self: stretch;
+  align-items: center;
+}
+.sunContainer {
+  width: 40px;
+  align-items: flex-start;
+  gap: var(--gap-5xs);
+}
+.aug2,
+.tue {
+  align-self: stretch;
+  height: 11px;
+  position: relative;
+  display: inline-block;
+}
+.frameDiv,
+.tueParent {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.tueParent {
+  width: 40px;
+  display: flex;
+  align-items: center;
+}
+.frameDiv {
+  display: none;
+  align-items: flex-start;
+  gap: var(--gap-5xs);
+}
+.suncloudIcon2 {
+  width: 40px;
+  height: 40px;
+  position: relative;
+}
+.c3 {
+  align-self: stretch;
+  height: 11px;
+  position: relative;
+  display: inline-block;
+}
+.cWrapper1,
+.suncloudGroup {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.cWrapper1 {
+  align-self: stretch;
+  align-items: center;
+}
+.suncloudGroup {
+  width: 40px;
+  align-items: flex-start;
+  gap: var(--gap-5xs);
+}
+.aug3,
+.wed {
+  align-self: stretch;
+  height: 11px;
+  position: relative;
+  display: inline-block;
+}
+.frameParent1,
+.wedParent {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.wedParent {
+  width: 40px;
+  display: flex;
+  align-items: center;
+}
+.frameParent1 {
+  display: none;
+  align-items: flex-start;
+  gap: var(--gap-5xs);
+}
+.suncloudIcon3 {
+  width: 40px;
+  height: 40px;
+  position: relative;
+}
+.c4 {
+  align-self: stretch;
+  height: 11px;
+  position: relative;
+  display: inline-block;
+}
+.cWrapper2,
+.suncloudContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.cWrapper2 {
+  align-self: stretch;
+  align-items: center;
+}
+.suncloudContainer {
+  width: 40px;
+  align-items: flex-start;
+  gap: var(--gap-5xs);
+}
+.aug4,
+.thu {
+  align-self: stretch;
+  height: 11px;
+  position: relative;
+  display: inline-block;
+}
+.frameParent2,
+.thuParent {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.thuParent {
+  width: 40px;
+  display: flex;
+  align-items: center;
+}
+.frameParent2 {
+  display: none;
+  align-items: flex-start;
+  gap: var(--gap-5xs);
+}
+.c5,
+.sunIcon2 {
+  position: relative;
+}
+.sunIcon2 {
+  width: 40px;
+  height: 40px;
+}
+.c5 {
+  align-self: stretch;
+  height: 11px;
+  display: inline-block;
+}
+.cWrapper3,
+.sunParent1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.cWrapper3 {
+  align-self: stretch;
+  align-items: center;
+}
+.sunParent1 {
+  width: 40px;
+  align-items: flex-start;
+  gap: var(--gap-5xs);
+}
+.fri,
+.sep {
+  align-self: stretch;
+  height: 11px;
+  position: relative;
+  display: inline-block;
+}
+.friParent {
+  width: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frameParent3,
+.weatherInfoParent {
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent3 {
+  display: none;
+  flex-direction: column;
+  gap: var(--gap-5xs);
+}
+.weatherInfoParent {
+  width: 154px;
+  border-radius: var(--br-xs);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-11xs) 0;
+  box-sizing: border-box;
+  gap: var(--gap-5xl);
+  text-align: center;
+  font-size: var(--font-size-3xs);
+}
+.lakeInfoParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-0);
+  row-gap: 20px;
+  max-width: 100%;
+}
+.frameChild,
+.frameItem {
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.frameChild {
+  align-self: stretch;
+  height: 248px;
+  position: relative;
+  border-radius: var(--br-5xs);
+  max-width: 100%;
+  object-fit: cover;
+}
+.frameItem {
+  width: 37px;
+  height: 65px;
+  position: absolute;
+  margin: 0 !important;
+  right: 12px;
+  bottom: 161.5px;
+  border-radius: var(--br-9xs);
+  z-index: 1;
+}
+.frameParent {
+  align-self: stretch;
+  flex-direction: column;
+  position: relative;
+  gap: var(--gap-xl);
+}
+.frameParent,
+.locationAmenities,
+.locationAmenitiesInner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.locationAmenitiesInner {
+  width: 480px;
+  flex-direction: column;
+  min-width: 480px;
+}
+.locationAmenities {
+  align-self: stretch;
+  border-bottom: 1px solid var(--light-grey-border);
+  box-sizing: border-box;
+  flex-direction: row;
+  padding: 0 0 var(--padding-11xl);
+  gap: var(--gap-lgi);
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--dark);
+  font-family: var(--font-archivo);
+}
+@media screen and (max-width: 1125px) {
+  .locationAmenitiesInner {
+    flex: 1;
+  }
+  .locationAmenities {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 800px) {
+  .textFrame {
+    flex-wrap: wrap;
+  }
+  .ellipse {
+    min-width: 100%;
+  }
+  .lakeInfoParent {
+    flex-wrap: wrap;
+  }
+  .locationAmenitiesInner {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .amenities {
+    font-size: var(--font-size-lgi);
+  }
+  .hearticonFrame {
+    gap: var(--gap-mini);
+  }
+  .whereYoullBe {
+    font-size: var(--font-size-lgi);
+  }
+}

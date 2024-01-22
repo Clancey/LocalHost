@@ -1,0 +1,77 @@
+.logoIcon {
+  height: 40.5px;
+  width: 156.8px;
+}
+.becomeAHost,
+.home,
+.logoIcon,
+.stays {
+  position: relative;
+}
+.becomeAHost {
+  white-space: nowrap;
+}
+.navLinks {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+}
+.alertsIcon {
+  height: 26px;
+  width: 26px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.avatarIcon {
+  height: 36px;
+  width: 36px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: contain;
+}
+.loginSection {
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.header,
+.headerContent,
+.loginSection {
+  display: flex;
+  align-items: center;
+}
+.headerContent {
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 1280px;
+  gap: var(--gap-xl);
+}
+.header {
+  align-self: stretch;
+  background-color: var(--white);
+  border-bottom: 1px solid var(--light-grey-border);
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-sm) var(--padding-xl);
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-black);
+  font-family: var(--font-archivo);
+}
+@media screen and (max-width: 1325px) {
+  .headerContent {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .navLinks {
+    display: none;
+  }
+}
