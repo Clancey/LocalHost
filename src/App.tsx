@@ -5,9 +5,9 @@ import {
   useNavigationType,
   useLocation,
 } from "react-router-dom";
-import SignUpPageFrame from "./pages/SignUpPageFrame";
+import SignUpPage from "./pages/SignUpPage";
+import PropertyDetails from "./pages/PropertyDetails";
 import Homepage from "./pages/Homepage";
-import PropertyDetailsFrame from "./pages/PropertyDetailsFrame";
 
 function App() {
   const action = useNavigationType();
@@ -29,11 +29,11 @@ function App() {
         title = "";
         metaDescription = "";
         break;
-      case "/homepage":
+      case "/results-page":
         title = "";
         metaDescription = "";
         break;
-      case "/property-details-frame":
+      case "/homepage":
         title = "";
         metaDescription = "";
         break;
@@ -55,12 +55,9 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/" element={<SignUpPageFrame />} />
+      <Route path="/" element={<SignUpPage />} />
+      <Route path="/results-page" element={<PropertyDetails />} />
       <Route path="/homepage" element={<Homepage />} />
-      <Route
-        path="/property-details-frame"
-        element={<PropertyDetailsFrame />}
-      />
     </Routes>
   );
 }

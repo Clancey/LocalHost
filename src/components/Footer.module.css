@@ -1,0 +1,177 @@
+.support {
+  margin: 0;
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+  font-family: inherit;
+}
+.aircover,
+.cencellationOptions,
+.combatingDiscrimination,
+.helpCentre,
+.reportNeighbourhoodConcern,
+.support,
+.supportingPeopleWith {
+  position: relative;
+}
+.helpCentreSupportFrame {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+  min-width: 315px;
+  max-width: 100%;
+}
+.hosting {
+  margin: 0;
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+  font-family: inherit;
+}
+.communityForum,
+.coverForHosts,
+.hosting,
+.hostingResources,
+.hostingResponsibly,
+.localHome {
+  position: relative;
+}
+.helpCenterFrame {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+  min-width: 315px;
+  max-width: 100%;
+}
+.localhost {
+  margin: 0;
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+  font-family: inherit;
+}
+.careers,
+.giftCards,
+.investres,
+.localhost,
+.newFeatures,
+.newsroom {
+  position: relative;
+}
+.helpCenterFrame1 {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-sm);
+  min-width: 315px;
+  max-width: 100%;
+}
+.footer1,
+.footerWrapper,
+.frameBanner,
+.helpCenterFrame1 {
+  display: flex;
+  justify-content: flex-start;
+}
+.frameBanner {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: var(--gap-3xs);
+  max-width: 100%;
+}
+.footer1,
+.footerWrapper {
+  flex-direction: column;
+}
+.footer1 {
+  width: 100%;
+  align-items: flex-start;
+  max-width: 1280px;
+}
+.footerWrapper {
+  align-self: stretch;
+  background-color: var(--light-bg);
+  border-top: 1px solid var(--light-grey-border);
+  box-sizing: border-box;
+  align-items: center;
+  padding: var(--padding-21xl) var(--padding-11xl);
+  max-width: 100%;
+}
+.contactUs,
+.localhostIncAll,
+.privacyPolicy,
+.termsConditions {
+  position: relative;
+  line-height: 120%;
+  font-weight: 300;
+}
+.frameSupport {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.privacyPolicyTermsContactF,
+.reportNeighborhoodConcernFr {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 1280px;
+}
+.privacyPolicyTermsContactF {
+  flex: 1;
+  gap: var(--gap-xl);
+}
+.reportNeighborhoodConcernFr {
+  width: 100%;
+}
+.cancellationOptionsFrame,
+.footer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.cancellationOptionsFrame {
+  border-top: 1px solid var(--light-grey-border);
+  box-sizing: border-box;
+  align-items: center;
+  padding: var(--padding-xs) var(--padding-11xl);
+  font-size: var(--font-size-sm);
+  color: var(--color-black);
+}
+.footer {
+  align-items: flex-start;
+  z-index: 1;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--dark);
+  font-family: var(--font-archivo);
+}
+@media screen and (max-width: 1275px) {
+  .footer1,
+  .privacyPolicyTermsContactF,
+  .reportNeighborhoodConcernFr {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 750px) {
+  .privacyPolicyTermsContactF {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .hosting,
+  .localhost,
+  .support {
+    font-size: var(--font-size-base);
+  }
+}
