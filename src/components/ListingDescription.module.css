@@ -1,0 +1,148 @@
+.aboutThisHome {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+  font-family: inherit;
+}
+.welcomeToBrightwoods {
+  margin-block-start: 0;
+  margin-block-end: 17px;
+}
+.livingSpace {
+  font-family: var(--font-archivo);
+}
+.livingSpaceThisCharmingCa {
+  margin-block-start: 0;
+  margin-block-end: 17px;
+}
+.bedrooms {
+  font-family: var(--font-archivo);
+}
+.bedroomsWith3BeautifullyA {
+  margin-block-start: 0;
+  margin-block-end: 17px;
+}
+.kitchenDining {
+  font-family: var(--font-archivo);
+}
+.kitchenDiningOurFullyEq {
+  margin-block-start: 0;
+  margin-block-end: 17px;
+}
+.bathrooms {
+  font-family: var(--font-archivo);
+}
+.bathrooms2ModernBathrooms {
+  margin-block-start: 0;
+  margin-block-end: 17px;
+}
+.outdoorSpace {
+  font-family: var(--font-archivo);
+}
+.outdoorSpaceStepOutsideTo {
+  margin-block-start: 0;
+  margin-block-end: 17px;
+}
+.location {
+  font-family: var(--font-archivo);
+}
+.locationLocatedJustMinutes {
+  margin-block-start: 0;
+  margin-block-end: 17px;
+}
+.hostedWithLove {
+  font-family: var(--font-archivo);
+}
+.hostedWithLoveWeTakePrid {
+  margin-block-start: 0;
+  margin-block-end: 17px;
+}
+.comeBeOur {
+  margin: 0;
+}
+.welcomeToBrightwoodsContainer {
+  align-self: stretch;
+  position: relative;
+  line-height: 160%;
+  display: -webkit-inline-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 7;
+  -webkit-box-orient: vertical;
+}
+.button {
+  position: relative;
+  letter-spacing: 0.46px;
+  line-height: 26px;
+  font-weight: 600;
+  color: var(--accent);
+  text-align: center;
+}
+.footerFrame {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-21xl);
+  min-width: 500px;
+}
+.amenitiesSection,
+.footerFrame,
+.listingDescription,
+.textStayNameLabel {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.amenitiesSection {
+  width: 470px;
+  flex-direction: column;
+  gap: var(--gap-5xl);
+  min-width: 470px;
+  font-size: var(--font-size-lg);
+}
+.listingDescription,
+.textStayNameLabel {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-21xl);
+  font-size: var(--font-size-base);
+}
+.listingDescription {
+  border-bottom: 1px solid var(--light-grey-border);
+  box-sizing: border-box;
+  flex-direction: column;
+  padding: 0 0 var(--padding-5xl);
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--dark);
+  font-family: var(--font-archivo);
+}
+@media screen and (max-width: 1125px) {
+  .amenitiesSection {
+    flex: 1;
+  }
+  .textStayNameLabel {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 800px) {
+  .amenitiesSection,
+  .footerFrame {
+    min-width: 100%;
+  }
+  .textStayNameLabel {
+    gap: var(--gap-xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .aboutThisHome {
+    font-size: var(--font-size-lgi);
+  }
+  .footerFrame {
+    gap: var(--gap-xl);
+  }
+}

@@ -1,0 +1,113 @@
+.formWrapper,
+.loginSections {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+}
+.formWrapper {
+  width: 589px;
+  border-radius: var(--br-5xs);
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.loginSections {
+  align-self: stretch;
+  padding: var(--padding-150xl) var(--padding-150xl) 170px;
+  box-sizing: border-box;
+  background-image: url(/public/login-sections@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.contactUs,
+.localhostIncAll,
+.privacyPolicy,
+.termsConditions {
+  position: relative;
+  line-height: 120%;
+  font-weight: 300;
+}
+.contactUsFrame,
+.footerCopyrightFrame,
+.loginOrText {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.contactUsFrame {
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.footerCopyrightFrame,
+.loginOrText {
+  justify-content: space-between;
+  max-width: 1280px;
+}
+.footerCopyrightFrame {
+  flex: 1;
+  gap: var(--gap-xl);
+}
+.loginOrText {
+  width: 100%;
+}
+.signInFrame,
+.signUpPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.signInFrame {
+  align-self: stretch;
+  border-top: 1px solid var(--light-grey-border);
+  box-sizing: border-box;
+  align-items: center;
+  padding: var(--padding-xs) var(--padding-11xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-black);
+  font-family: var(--font-archivo);
+}
+.signUpPage {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-gray-100);
+  overflow: hidden;
+  align-items: flex-start;
+  letter-spacing: normal;
+}
+.signUpPage:hover {
+  background: linear-gradient(#fff, #fff), #87550a;
+}
+@media screen and (max-width: 1275px) {
+  .footerCopyrightFrame,
+  .loginOrText {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .loginSections {
+    padding: 110px 84px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .loginSections {
+    padding-top: var(--padding-52xl);
+    padding-bottom: var(--padding-52xl);
+    box-sizing: border-box;
+  }
+  .footerCopyrightFrame {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .loginSections {
+    gap: var(--gap-9xl);
+    padding-left: var(--padding-23xl);
+    padding-right: var(--padding-23xl);
+    box-sizing: border-box;
+  }
+}

@@ -1,0 +1,222 @@
+.createAccount {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.02em;
+  font-weight: 700;
+  font-family: inherit;
+}
+.confirmPassword,
+.email,
+.password {
+  border: 0;
+  background-color: transparent;
+  align-self: stretch;
+  height: 51px;
+  font-family: var(--font-archivo);
+  font-size: var(--font-size-base);
+  color: var(--light-text);
+}
+.formFields {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 15.71px;
+}
+.searchFlightsButton {
+  width: 160px;
+  height: 52px;
+}
+.searchFlightsButton:hover {
+  background-color: var(--color-saddlebrown);
+}
+.createAccountParent,
+.form1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.form1 {
+  margin: 0;
+  gap: var(--gap-7xl-7);
+}
+.createAccountParent {
+  padding: 0 var(--padding-4xs);
+  gap: var(--gap-5xl);
+  flex-shrink: 0;
+  font-size: var(--font-size-7xl);
+}
+.formChild,
+.orSignUp {
+  align-self: stretch;
+  position: relative;
+}
+.formChild {
+  height: 1.57px;
+  border-top: 1.6px solid var(--color-whitesmoke-200);
+  box-sizing: border-box;
+}
+.orSignUp {
+  letter-spacing: 0.02em;
+  line-height: 160%;
+}
+.socialIcongm {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.facebook {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  border-radius: var(--br-xl);
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.facebook1 {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.24px;
+}
+.socialLogindefaultCopy {
+  flex: 1;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-whitesmoke-100);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-6xl) var(--padding-smi) var(--padding-7xl);
+  box-sizing: border-box;
+  gap: var(--gap-lgi);
+  min-width: 116px;
+}
+.facebookIcon {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.facebook2 {
+  position: relative;
+  letter-spacing: 0.24px;
+}
+.socialLogindefaultCopy1 {
+  flex: 0.5736;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-whitesmoke-100);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-6xl) var(--padding-21xl) var(--padding-7xl)
+    var(--padding-22xl);
+  box-sizing: border-box;
+  gap: var(--gap-lgi);
+  min-width: 116px;
+}
+.facebookIcon1 {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.facebook3 {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.24px;
+}
+.socialLogindefaultCopy2 {
+  flex: 1;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-whitesmoke-100);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-6xl) var(--padding-smi) var(--padding-7xl);
+  box-sizing: border-box;
+  gap: var(--gap-lgi);
+  min-width: 116px;
+}
+.orSignUpWithParent,
+.socialLoginFrame {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.socialLoginFrame {
+  flex-direction: row;
+  padding: 0 var(--padding-11xs) 0 0;
+  gap: var(--gap-smi);
+  text-align: center;
+  color: var(--light-text);
+}
+.orSignUpWithParent {
+  flex-direction: column;
+  padding: 0 var(--padding-4xs);
+  gap: var(--gap-3xs);
+  flex-shrink: 0;
+}
+.login {
+  color: var(--accent);
+}
+.iAlreadyHaveContainer {
+  width: 493px;
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 160%;
+  text-align: center;
+  display: inline-block;
+  max-width: 100%;
+}
+.form {
+  flex: 1;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-21xl) var(--padding-20xl) var(--padding-20xl);
+  box-sizing: border-box;
+  gap: var(--gap-19xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--dark);
+  font-family: var(--font-archivo);
+}
+@media screen and (max-width: 750px) {
+  .socialLoginFrame {
+    flex-wrap: wrap;
+  }
+  .form {
+    gap: var(--gap-lgi);
+    padding-top: var(--padding-7xl);
+    padding-bottom: var(--padding-6xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .createAccount {
+    font-size: var(--font-size-2xl);
+  }
+  .socialLogindefaultCopy1 {
+    flex: 1;
+  }
+}

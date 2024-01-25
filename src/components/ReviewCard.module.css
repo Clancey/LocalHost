@@ -1,0 +1,91 @@
+.reviewerNamesIcon {
+  height: 64px;
+  width: 64px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.johnnyCash,
+.june2023 {
+  position: relative;
+  letter-spacing: 0.02em;
+}
+.johnnyCash {
+  line-height: 150%;
+  font-weight: 600;
+}
+.june2023 {
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-200);
+}
+.dateInfo,
+.reviewerNamesParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-10xs);
+}
+.reviewerNamesParent {
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-base);
+}
+.stayCardFrame {
+  position: relative;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+}
+.heartIconShape {
+  height: 16px;
+  width: 16px;
+  position: relative;
+}
+.ellipseShape,
+.similarStaysSec {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.similarStaysSec {
+  justify-content: flex-start;
+  padding: var(--padding-xl) 0;
+  gap: var(--gap-9xs);
+}
+.ellipseShape {
+  align-self: stretch;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.michellesPlaceWas {
+  align-self: stretch;
+  height: 78px;
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 160%;
+  display: inline-block;
+}
+.reviewcard {
+  flex: 1;
+  border-radius: var(--br-5xs);
+  border: 1px solid var(--light-grey-border);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xl) var(--padding-6xl) var(--padding-5xl)
+    var(--padding-4xl);
+  gap: var(--gap-xs);
+  min-width: 310px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--dark);
+  font-family: var(--font-archivo);
+}
+@media screen and (max-width: 450px) {
+  .ellipseShape {
+    flex-wrap: wrap;
+  }
+}
